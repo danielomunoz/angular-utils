@@ -1,0 +1,7 @@
+<form autocomplete="off" [formGroup]="form" (submit)="saveForm()">
+	<input type="text" formControlName="SINGLE">
+	<div formGroupName="GROUP">
+		<input type="text" formControlName="G1">
+		<input type="text" formControlName="G2">
+	</div>
+</form>
